@@ -1,0 +1,31 @@
+
+[TYPE] [NAME] \n
+
+[NAME] = [EXPR] \n
+
+
+#operators +,-,*,/,~,^,&,|
+
+:tag
+
+[EXPR]-> [TAGNAME] # if goto
+
+->tag
+
+bool print: char *str
+loop:
+
+    *str -> putc
+
+*++str->loop
+
+<-*str
+
+
+char *str = "STRING"
+
+start:
+
+
+
+
